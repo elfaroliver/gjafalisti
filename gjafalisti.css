@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('./fonts/Roboto-Regular.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url('./fonts/Roboto-Light.ttf') format('woff2');
+}
+
+body {
+  background-color:#66FF99;
+}
+
+h1,
+h3,
+h5 {
+  text-align: center;
+  font-family: Roboto-Light;
+}
+
+h1 {
+  color: crimson  ;
+}
+
+li {
+  text-align: center;
+  font-family: Roboto-Regular;
+  list-style-type: none;
+}
+
+a:link {
+  color:darkred;
+  text-decoration: none;
+}
+
+/* visited link */
+/*a:visited {
+  color: green;
+}*/
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* unvisited link */
+/*a:link {
+  color: red;
+}*/
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
