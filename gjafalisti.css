@@ -12,20 +12,42 @@ body {
   background-color:#66FF99;
 }
 
-h1,
-h3,
+h1 {
+  text-align: center;
+  font-family: Roboto-Regular;
+  font-size: 3rem;
+  margin-bottom: auto;
+  color: crimson;
+}
+
+h3 {
+  text-align: center;
+  font-family: Roboto-Light;
+  font-size: 1.5rem;
+  margin-bottom: auto;
+}
+
 h5 {
   text-align: center;
   font-family: Roboto-Light;
+  font-size: 1.5rem;
+  margin-bottom: auto;
 }
 
-h1 {
-  color: crimson  ;
-}
-
-li {
+/*li {
   text-align: center;
   font-family: Roboto-Regular;
+  list-style-type: none;
+}*/
+
+.centered-list {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-list ul {
+  padding: 0;
+  text-align: left;
   list-style-type: none;
 }
 
@@ -34,27 +56,10 @@ a:link {
   text-decoration: none;
 }
 
-/* visited link */
-/*a:visited {
-  color: green;
-}*/
-
-/* mouse over link */
 a:hover {
   color: hotpink;
 }
 
-/* unvisited link */
-/*a:link {
-  color: red;
-}*/
-
-/* visited link */
 a:visited {
   color: green;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
 }
