@@ -20,25 +20,30 @@ h1 {
   color: crimson;
 }
 
-h3 {
+/* h3 {
   text-align: center;
   font-family: Roboto-Light;
   font-size: 1.5rem;
   margin-bottom: auto;
-}
+} */
 
 h5 {
   text-align: center;
   font-family: Roboto-Light;
   font-size: 1.5rem;
-  margin-bottom: auto;
+  margin-bottom: 0.5rem;
 }
 
-/*li {
-  text-align: center;
+p {
+  margin-bottom: 0.5rem;
+  font-family: Roboto-Light;
+  font-weight: bold;
+}
+
+li {
   font-family: Roboto-Regular;
-  list-style-type: none;
-}*/
+  margin-bottom: 0.25rem;
+}
 
 .centered-list {
   display: flex;
@@ -62,4 +67,32 @@ a:hover {
 
 a:visited {
   color: green;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: block;
+  grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
+  gap: 10px; /* Space between the cards */
+  max-width: 600px; /* Optional, to control overall width */
+  margin: 0 auto; /* Center the grid container */
+}
+
+.card {
+  padding: 20px;
+  text-align: left;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+
+/* Switch to 2 columns on smaller screens */
+@media (max-width: 600px) {
+  .card-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  }
 }
