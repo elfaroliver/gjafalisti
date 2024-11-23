@@ -102,6 +102,7 @@ li {
 a {
   color: crimson;
   text-decoration: none;
+  justify-content: stretch;
 }
 
 a:link {
@@ -131,10 +132,11 @@ a:hover {
 }
 
 .card {
-  padding: 20px;
+  /*padding: 20px;*/
   text-align: left;
   border-radius: 8px;
-  margin: 1rem;
+  margin: 2rem;
+  justify-content: center;
 }
 
 .forvari {
