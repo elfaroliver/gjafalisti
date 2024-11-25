@@ -8,9 +8,24 @@
   src: url('./fonts/Roboto-Light.ttf') format('woff2');
 }
 
-/* html {
-  position: relative;
-} */
+:root {
+  --columns: 12;
+  --gutter: 30px;
+  --offset: 20px;
+
+  --width-offset: calc(100% - (2 * var(--offset)));
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* og látum erfast á allt */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
   background-color:#66FF99;
@@ -23,6 +38,7 @@ body {
   flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
+  width: 100%;
 }
 
 nav {
@@ -121,11 +137,14 @@ a:hover {
 .cards {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
 }
 
 .card-container {
   display: block;
-  grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
+  /* grid-template-columns: repeat(3, 1fr); */
   gap: 10px; /* Space between the cards */
   max-width: 600px; /* Optional, to control overall width */
   margin: 0 auto; /* Center the grid container */
@@ -143,9 +162,19 @@ a:hover {
   text-align: center;
 }
 
-/* Switch to 2 columns on smaller screens */
 @media (max-width: 600px) {
+  .cards {
+    flex-direction: column; 
+    /* align-items: center;  */
+  }
+
   .card-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    display: flex; /* Leyfir kortainnihaldi að breytast lóðrétt */
+    flex-direction: column;
+    gap: 15px; /* Vel skilgreind bil á milli korta */
+  }
+
+  .navcard {
+    margin-bottom: 10px; /* Gefur smá bil á milli liða */
   }
 }
