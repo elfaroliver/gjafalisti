@@ -6,7 +6,7 @@
 @font-face {
   font-family: Roboto-Light;
   src: url('./fonts/Roboto-Light.ttf') format('woff2');
-}
+}*/
 
 :root {
   --columns: 12;
@@ -86,6 +86,10 @@ p {
   font-weight: bold;
 }
 
+.forvari {
+  text-align: center;
+}
+
 nav li {
   list-style-type: none;
 }
@@ -158,10 +162,6 @@ a:hover {
   justify-content: center;
 }
 
-.forvari {
-  text-align: center;
-}
-
 @media (max-width: 600px) {
   .cards {
     flex-direction: column; 
@@ -175,6 +175,6 @@ a:hover {
   }
 
   .navcard {
-    margin-bottom: 10px; /* Gefur smá bil á milli liða */
+    margin-bottom: 10px;
   }
 }

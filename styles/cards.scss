@@ -1,0 +1,41 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card-container {
+    display: block;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 10px; /* Space between the cards */
+    max-width: 600px; /* Optional, to control overall width */
+    margin: 0 auto; /* Center the grid container */
+  }
+  
+  .card {
+    /*padding: 20px;*/
+    text-align: left;
+    border-radius: 8px;
+    margin: 2rem;
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    .cards {
+      flex-direction: column; 
+      /* align-items: center;  */
+    }
+  
+    .card-container {
+      display: flex; /* Leyfir kortainnihaldi að breytast lóðrétt */
+      flex-direction: column;
+      gap: 15px; /* Vel skilgreind bil á milli korta */
+    }
+  
+    .navcard {
+      margin-bottom: 10px;
+    }
+  }
+  
