@@ -93,7 +93,7 @@ p {
   justify-content: center;
   padding: 0;
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 33%;
 }
 
 nav li {
@@ -186,5 +186,15 @@ a:hover {
 
   .navcard {
     margin-bottom: 10px;
+  }
+
+  .forvari {
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 75%;
   }
 }
