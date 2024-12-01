@@ -100,6 +100,14 @@ nav li {
   list-style-type: none;
 }
 
+.nestisdiv {
+  margin-bottom: 0.25rem;
+}
+
+.nestisdiv li {
+  margin-bottom: 0.15rem;
+}
+
 li {
   font-family: Roboto-Regular;
   margin-bottom: 0.35rem;
