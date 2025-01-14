@@ -163,6 +163,7 @@ a:hover {
   flex-direction: row;
   padding: 0;
   margin: 0;
+  max-width: fit-content;
 }
 
 .card-container {
@@ -192,9 +193,9 @@ a:hover {
   }
 
   .card-container {
-    display: flex; /* Leyfir kortainnihaldi að breytast lóðrétt */
+    display: flex; /* Leyfir cardinnihaldi að breytast lóðrétt */
     flex-direction: column;
-    gap: 15px; /* Vel skilgreind bil á milli korta */
+    gap: 15px; /* Vel skilgreind bil á milli card */
   }
 
   .navcard {
