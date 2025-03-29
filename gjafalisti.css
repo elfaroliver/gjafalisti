@@ -118,6 +118,10 @@ li {
   margin-bottom: 0.35rem;
 }
 
+/*li:hover {
+  background-color: #21d624;
+}*/
+
 .centered-list {
   display: flex;
   justify-content: center;
