@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  background-color:#66FF99;
+  background-color:#2de46a;
 }
 
 .wrapper {
@@ -46,7 +46,7 @@ nav {
   font-family: Roboto-Regular;
   font-size: 2rem;
   margin-bottom: auto;
-  color: crimson;
+  color: rgb(182, 36, 65);
 }
 
 .navcard {
@@ -67,7 +67,7 @@ h1 {
   font-family: Roboto-Regular;
   font-size: 3rem;
   margin-bottom: 0.5em;
-  color: crimson;
+  color: rgb(212, 28, 65);
 }
 
 /* h3 {
@@ -93,7 +93,7 @@ p {
 
 .forvari {
   text-align: center;
-  background-color: yellow;
+  background-color: rgb(225, 225, 47);
   border: 2px solid black;
   justify-content: center;
   padding: 0;
