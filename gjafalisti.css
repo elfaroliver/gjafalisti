@@ -67,7 +67,7 @@ h1 {
   font-family: Roboto-Regular;
   font-size: 3rem;
   margin-bottom: 0.5em;
-  color: rgb(212, 28, 65);
+  color: rgb(175, 43, 70);
 }
 
 /* h3 {
@@ -143,13 +143,13 @@ li {
 }
 
 a {
-  color: crimson;
+  color: rgb(175, 43, 70);
   text-decoration: none;
   justify-content: stretch;
 }
 
 a:link {
-  color:crimson;
+  color: rgb(175, 43, 70);
   text-decoration: none;
 }
 
