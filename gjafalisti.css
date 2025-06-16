@@ -98,7 +98,7 @@ p {
   justify-content: center;
   padding: 0;
   margin: 0 auto;
-  max-width: 33%;
+  max-width: 75%;
 }
 
 nav li {
@@ -186,6 +186,24 @@ a:hover {
   justify-content: center;
 }
 
+footer {
+  text-align: center;
+  font-family: Roboto-Light;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  color: rgb(175, 43, 70);
+}
+
+.footer-nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 @media (max-width: 600px) {
   .cards {
     flex-direction: column; 
@@ -211,8 +229,17 @@ a:hover {
     background-color: yellow;
     border: 2px solid black;
     justify-content: center;
-    padding: 0;
-    margin: 0 auto;
+    padding-top: 2rem;
+    margin-top: 5rem;
     max-width: 75%;
+  }
+
+  footer {
+    text-align: center;
+    font-family: Roboto-Light;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    color: rgb(175, 43, 70);
+    list-style-type: none;
   }
 }
