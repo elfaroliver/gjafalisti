@@ -173,9 +173,9 @@ a:hover {
 .card-container {
   display: block;
   /* grid-template-columns: repeat(3, 1fr); */
-  gap: 10px; /* Space between the cards */
-  max-width: 600px; /* Optional, to control overall width */
-  margin: 0 auto; /* Center the grid container */
+  gap: 10px;
+  max-width: 600px; 
+  margin: 0 auto;
 }
 
 .card {
@@ -215,9 +215,9 @@ footer {
   }
 
   .card-container {
-    display: flex; /* Leyfir cardinnihaldi að breytast lóðrétt */
+    display: flex; /* Breytir cards í lóðrétt */
     flex-direction: column;
-    gap: 15px; /* Vel skilgreind bil á milli card */
+    gap: 15px;
   }
 
   .navcard {
