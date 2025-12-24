@@ -115,7 +115,8 @@ nav li {
 
 li {
   font-family: Roboto-Regular;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.5rem;
+  border-width: 10px solid rgb(237, 4, 4);
 }
 
 /*li:hover {
