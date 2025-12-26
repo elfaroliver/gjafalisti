@@ -119,6 +119,18 @@ li {
   border-width: 10px solid rgb(237, 4, 4);
 }
 
+.card li {
+  font-family: Roboto-Regular;
+  margin-bottom: 0.5rem;
+  /*border-bottom: 2px solid rgb(4, 66, 237);*/
+}
+
+.hringir p {
+  font-family: Roboto-Light;
+  font-size: 0.66rem;
+  margin-bottom: 0.5rem;
+}
+
 /*li:hover {
   background-color: #21d624;
 }*/
