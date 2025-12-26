@@ -105,14 +105,6 @@ nav li {
   list-style-type: none;
 }
 
-.nestisdiv {
-  margin-bottom: 0.25rem;
-}
-
-.nestisdiv li {
-  margin-bottom: 0.15rem;
-}
-
 li {
   font-family: Roboto-Regular;
   margin-bottom: 0.5rem;
@@ -197,6 +189,10 @@ a:hover {
   border-radius: 8px;
   margin: 2rem;
   justify-content: center;
+}
+
+.card p {
+  margin: 0 0 0.75rem 0;
 }
 
 footer {
